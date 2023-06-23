@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID VACCINATION CERTIFICATE</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        form {
+			background-color:yellow;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+        h1 {
+            background-color: white;
+            color: blue;
+            width: 470px;
+            border: 15px solid green;
+            padding: 10px;
+            margin: 20px;
+        }
+        table{
+            padding: 30px;
+            background-color: darkmagenta;
+        }
+        td,tr{
+            padding: 30px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 >COVID VACCINATION SURVEY</h1>
+        <table border="1">
+            <th colspan="2"> Survey Form</th>
+            <tr>
+                <form action="form.txt" method="post">
+                    <tr>
+           <td><label for="Name">Name:</label></td>           
+            <td><input type="text" id="Name" placeholder="Enter Your Name"></td>
+        </tr>
+        <tr>
+            <td><label for="Age">Age:</label></td>
+            <td><input type="age" id="Name" placeholder="Enter Your age"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="email" id="Email" placeholder="Enter your Email"></td>
+        </tr>
+        <tr>
+            <td><label for="PhoneNumber">Phone Number:</label></td>
+            <td><input type="number" id="PhoneNumber" placeholder="Enter Your MobileNumber"></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Address:</label></td>
+            <td> <textarea type="text" name="Address" rows="5" placeholder="Address"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="Corono">Affected by Corona?</label></td>
+            <td> 
+                <input type="radio" id="Affected" name="Corono" >
+                <label for="Male">Affected?</label>
+                <input type="radio" id="Not Affected" name="Corono">
+                <label for="Female">Not Affected?</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Vaccine">Vaccinated</label></td>
+            
+                <td> 
+                    <input type="checkbox" id="First Dose" name="Vaccinated">
+                    <label for="Dose">1<sup>st</sup> Dose vaccinated</label><br>
+                    <input type="checkbox" id="Second Dose" name="vaccinated">
+                    <label for="Dose">2<sup>nd</sup> Dose vaccinated</label><br>                   
+                </td>
+       <tr>
+        <td><input type="submit"></td>
+        <td><input type="reset"></td>
+        <tr></tr>
+        </form>
+
+    </table>
+    </center>
+    
+</body>
+</html>
